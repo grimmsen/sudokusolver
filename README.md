@@ -46,11 +46,31 @@ Type
 
 
 ``` 
-make
+make solver
 ```
 
 
 and execute the solver.
+
+
+If you have command line sudoku installed type
+
+
+```
+./test.sh
+```
+
+
+to make a test solve. You can put the class of the sudoku command at the end. For example:
+
+
+```
+./test.sh hard
+```
+
+
+to let sudoku create a hard puzzle and let the program solve it.
+
 
 
 The algorithm is explained in the c file.
