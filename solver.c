@@ -252,7 +252,8 @@ int main() {
             solutions++;
             F[j]=i+1;
             printArray(F,j);
-            usleep(1000*200);
+            // just for the show!!!
+	    usleep(1000*200);
           }
         }
         if(solutions>0)

@@ -76,3 +76,4 @@ to let sudoku create a hard puzzle and let the program solve it.
 The algorithm is explained in the c file.
 
 
+There is a sleep command in the loop, to make the solve more visible. It solves each puzzle actually in a blink of an eye. The sleep is just for show.
